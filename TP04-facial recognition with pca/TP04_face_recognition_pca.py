@@ -1,23 +1,3 @@
-"""
-TP04 - Reconnaissance Faciale par PCA (Eigenfaces) et Viola-Jones
-==================================================================
-Objectifs :
-  1. Détection de visage par Viola-Jones (Cascades de Haar)
-  2. Construction d'un modèle PCA (Eigenfaces) sur une base d'images
-  3. Projection des visages dans le sous-espace PCA
-  4. Comparaison par distance Euclidienne
-  5. Prise de décision par seuillage
-
-Structure du dossier d'entraînement attendue :
-  dataset/
-    person1/
-        img1.jpg
-        img2.jpg
-        ...
-    person2/
-        img1.jpg
-        ...
-"""
 
 import cv2
 import numpy as np
